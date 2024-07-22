@@ -30,6 +30,9 @@
     <ClInclude Include="Account_Util.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="I_Printable.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Account.cpp">
@@ -48,6 +51,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="I_Printable.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
