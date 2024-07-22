@@ -15,17 +15,6 @@ int main()
     cout.precision(2);
     cout << fixed;
 
-    // Accounts
-    vector<Account> accounts;
-    accounts.push_back(Account{});
-    accounts.push_back(Account{ "Larry" });
-    accounts.push_back(Account{ "Moe", 2000 });
-    accounts.push_back(Account{ "Curly", 5000 });
-
-    display(accounts);
-    deposit(accounts, 1000);
-    withdraw(accounts, 2000);
-
     // Savings 
 
     vector<Savings_Account> sav_accounts;
@@ -66,8 +55,6 @@ int main()
     // All withdrawals should fail if there are too many withdrawals or if the withdrawl is > 20% of the balance
     for (int i = 1; i <= 5; i++)
         withdraw(trust_accounts, 1000);
-
-
 
     return 0;
 }
