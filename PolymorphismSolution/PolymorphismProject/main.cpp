@@ -84,8 +84,6 @@ int main()
     //for (int i = 1; i <= 5; i++)
     //    withdraw(trust_accounts, 1000);
 
-
-
     return 0;
 }
 
