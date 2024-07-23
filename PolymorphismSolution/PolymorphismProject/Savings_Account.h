@@ -15,6 +15,8 @@ public:
   
     virtual bool deposit(double amount) override;
     virtual bool withdraw(double amount) override;// Inherits the Account::withdraw method
+    virtual void print(std::ostream& os) const override;
+
 
     virtual ~Savings_Account() = default;
 };
